@@ -1,0 +1,48 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.*  # Arquivos dotenv
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# VS Code
+.vscode/
+
+# macOS / Linux
+.DS_Store
+*.swp
+*~
+
+# Pytest / Coverage
+htmlcov/
+.coverage
+.tox/
+.cache/
+pytest_cache/
+*.cover
+
+# MyPy / Pyright / Ruff
+.mypy_cache/
+.pyright/
+ruff_cache/
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# Redis dump (se você salvar no projeto)
+dump.rdb
